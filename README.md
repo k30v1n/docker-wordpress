@@ -8,3 +8,4 @@ References
 - $~/my-wordpress-site/ `docker compose up -d`
 - `docker container ls`
 - access `localhost:8000`
+- stop all containers `docker stop $(docker ps -a -q)`
